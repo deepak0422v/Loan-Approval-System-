@@ -1,6 +1,13 @@
 Machine Learning | Python | Streamlit | Scikit-Learn
 
+<p align="center">
+  <h1>Loan Approval Prediction System</h1>
+</p>
+
 # Loan Approval Prediction System
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Machine Learning](https://img.shields.io/badge/MachineLearning-Project-green)
 
 ## Live Demo
 
@@ -36,6 +43,17 @@ Users can input applicant details and receive a real-time loan approval predicti
 
 ---
 
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Matplotlib
+- Seaborn
+- Joblib
+
 # Technologies Used
 
 - Python
@@ -48,6 +66,14 @@ Users can input applicant details and receive a real-time loan approval predicti
 - Joblib
 
 ---
+
+## Machine Learning Model
+
+Two machine learning models were trained and evaluated:
+- Logistic Regression
+- Random Forest Classifier
+Random Forest achieved better performance and was selected as the final model.
+Hyperparameter tuning was performed using **GridSearchCV** to optimize model performance.
 
 # Machine Learning Pipeline
 
@@ -188,6 +214,24 @@ Users can enter:
 The system predicts whether the loan will be **Approved or Rejected**.
 
 ---
+
+## Model Performance
+
+The model was evaluated using the following metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+Feature importance analysis was also performed to identify the most influential variables affecting loan approval.
+
+## Deployment
+
+The application is deployed using **Streamlit Cloud**.
+
+Users can enter applicant details through the web interface and receive real-time predictions for loan approval.
 
 ## Future Improvements
 
