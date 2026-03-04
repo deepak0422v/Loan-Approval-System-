@@ -109,25 +109,24 @@ Feature importance analysis was also performed to identify the most influential 
 Loan-Approval-System-
 │
 ├── data
-│   └── train.csv
+│ └── train.csv
 │
 ├── models
-│   ├── loan_model.pkl
-│   └── model_columns.pkl
+│ ├── loan_model.pkl
+│ └── model_columns.pkl
 │
 ├── notebooks
-│   └── eda.ipynb
+│ └── eda.ipynb
 │
 ├── src
-│   ├── preprocess.py
-│   ├── train.py
-│   └── predict.py
+│ ├── preprocess.py
+│ ├── train.py
+│ └── predict.py
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
 ---
 
 ## Features
