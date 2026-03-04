@@ -1,8 +1,6 @@
 Machine Learning | Python | Streamlit | Scikit-Learn
 
-<p align="center">
-  <h1>Loan Approval Prediction System</h1>
-</p>
+# Loan Approval System
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Machine Learning](https://img.shields.io/badge/MachineLearning-Project-green)
