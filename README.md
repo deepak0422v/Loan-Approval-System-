@@ -52,6 +52,7 @@ Users can input applicant details and receive a real-time loan approval predicti
 ---
 
 # System Architecture
+```
 User Input (Applicant Details)
         │
         ▼
@@ -68,6 +69,7 @@ Trained Machine Learning Model
 Loan Approval Prediction
 (Approved / Rejected)
 
+```
 ---
 
 ## Tech Stack
